@@ -35,64 +35,6 @@ O projeto foi desenvolvido com uma arquitetura moderna, separando o front-end (i
 +---------------------------------------------+
 ```
 
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 500">
-  <style>
-    rect {
-      fill: #f0f0f0; /* Cor de fundo dos retângulos */
-      stroke: #000;   /* Cor da borda */
-      stroke-width: 2;
-    }
-    text {
-      font-family: sans-serif;
-      font-size: 14px;
-      text-anchor: middle; /* Centraliza o texto horizontalmente */
-      dominant-baseline: middle; /* Centraliza o texto verticalmente (aproximado) */
-    }
-    .arrow {
-        stroke: #000;
-        stroke-width: 2;
-        marker-end: url(#arrowhead);
-    }
-  </style>
-    <defs>
-        <marker id="arrowhead" markerWidth="10" markerHeight="7"
-            refX="0" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" />
-        </marker>
-    </defs>
-
-  <rect x="20" y="150" width="120" height="60" rx="10" ry="10"/>
-  <text x="80" y="180">Navegador</text>
-
-  <rect x="180" y="50" width="160" height="80" rx="10" ry="10"/>
-  <text x="260" y="90">Frontend (Vue.js)</text>
-  <text x="260" y="110">Netlify</text>
-
-  <rect x="400" y="50" width="160" height="80" rx="10" ry="10"/>
-  <text x="480" y="90">Backend (Spring Boot)</text>
-    <text x="480" y="110">Heroku</text>
-
-  <rect x="400" y="250" width="160" height="80" rx="10" ry="10"/>
-  <text x="480" y="290">Strapi (CMS)</text>
-     <text x="480" y="310">Heroku</text>
-
-  <rect x="620" y="150" width="160" height="80" rx="10" ry="10"/>
-  <text x="700" y="190">PostgreSQL</text>
-    <text x="700" y="210">(Heroku Postgres)</text>
-
-
-  <rect x="400" y="400" width="160" height="60" rx="10" ry="10" />
-    <text x="480" y="430">Hotmart</text>
-
-  <line x1="140" y1="180" x2="180" y2="90" class="arrow"/>
-    <line x1="340" y1="90" x2="400" y2="90" class="arrow"/>
-    <line x1="560" y1="90" x2="620" y2="190" class="arrow"/>
-    <line x1="340" y1="90" x2="400" y2="290" class="arrow" />
-     <line x1="560" y1="290" x2="620" y2="190" class="arrow"/>
-    <line x1="560" y1="430" x2="400" y2="90"  class="arrow" />
-
-  </svg>
-
 **Descrição do Diagrama:**
 
 *   **Navegador (Usuário):** O ponto de partida.  O usuário acessa o site através de um navegador web (Chrome, Firefox, Safari, etc.).
